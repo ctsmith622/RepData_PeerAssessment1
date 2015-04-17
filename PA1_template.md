@@ -218,5 +218,6 @@ tidy_means_wkdy$weekday[-weekday_indices] <- "Weekend"
 ```r
 xyplot(steps ~ interval |  weekday, data= tidy_means_wkdy, type = "l")
 ```
+From the plot we can say that activity patterns are different between weekends and weekdays, with the # of steps taken trending toward larger values on the weekends than on the weekdays.
 
 ![](./PA1_template_files/figure-html/unnamed-chunk-13-1.png) 
